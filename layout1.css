@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/*
+Hashing Research Project
+Author: Connor J Webdale
+Date: 10.1.18
+            
+Filename: layout1.css
+*/
+
+/*Structure of Body*/
+h1 {
+    font-size: 300%;
+    margin: 0 0 0 2%;
+}
+
+img {
+    height: 14em;
+    width: 38em;
+    margin-bottom: 4em;
+    margin-left: 6px;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+}
+
+section#left {
+    height: 18em;
+    width: 38em;
+    position: absolute;
+    top: 22.5em;
+    margin-right: 4%;
+    margin-left: 6px;
+}
+
+section#left>p {
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 50px;
+}
+
+section#right {
+    height: 18em;
+    width: 38em;
+    position: absolute;
+    left: 42em;
+    top: 10em;
+    margin-right: 4%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    position: relative;
+    top: 25em;
+}
+
+/*Navigation Styles*/
+nav {
+    display: table;
+    width: 100%;
+}
+
+nav>ul {
+    display: table-row;
+    list-style-type: none;
+}
+
+nav>ul>li {
+    display: table-cell;
+    text-align: center;
+    width: 284px;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+}
