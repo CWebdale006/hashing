@@ -15,9 +15,8 @@ section#title>h1 {
 }
 
 img {
-    /*I don't know*/
-    /* height:
-    width:  */
+    height: 200px;
+    width: 100%;
 }
 
 /*Navigation Styles*/
