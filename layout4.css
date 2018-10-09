@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*
+Hashing Research Project
+Author: Connor J Webdale
+Date: 10.8.18
+            
+Filename: layout4.css
+*/
+
+/*Structure of Body*/
+
+/*Navigation Styles*/
+nav {
+    display: table;
+    width: 100%;
+}
+
+nav>ul {
+    display: table-row;
+    list-style-type: none;
+}
+
+nav>ul>li {
+    display: table-cell;
+    text-align: center;
+    width: 284px;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+}
