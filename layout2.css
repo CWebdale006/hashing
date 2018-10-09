@@ -3,9 +3,9 @@
 /*
 Hashing Research Project
 Author: Connor J Webdale
-Date: 10.1.18
+Date: 10.4.18
             
-Filename: layout1.css
+Filename: layout2.css
 */
 
 /*Structure of Body*/
@@ -15,22 +15,15 @@ section#title>h1 {
 }
 
 section#text {
-    width: 60%;
+    width: 75%;
     margin-left: 2%;
-}
-
-aside {
-    width: 20%;
-    position: absolute;
-    top: 83px;
-    left: 70%;
 }
 
 img {
     height: 388px;
     width: 50%;
     margin-left: 2%;
-
+    margin-top: 4%;
 }
 
 blockquote {
