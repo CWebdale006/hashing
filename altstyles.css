@@ -16,15 +16,6 @@ html {
 
 body {
     background-color: #32445f;
-    /*find font*/
-}
-
-/*Navigation Styles*/
-nav {
-    background-color: #292929;
-    font-family: 'Roboto', sans-serif;
-    color: #dfdfdf;
-    font-size: 20px;
 }
 
 h1 {
@@ -34,6 +25,42 @@ h1 {
     background-color: #292929;
     padding: 20px;
     margin: 10px;
+}
+
+article h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #dfdfdf;
+    font-size: 32px;
+    background-color: #292929;
+    padding: 20px;
+    margin: 0;
+}
+
+article p {
+    font-family: 'Roboto', sans-serif;
+    color: #dfdfdf;
+    font-size: 16px;
+}
+
+article#info>p#history {
+    padding-top: 0.5vw;
+    margin-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+blockquote {
+    font-family: 'Roboto', sans-serif;
+    color: #dfdfdf;
+    font-size: 20px;
+}
+
+/*Navigation Styles*/
+nav {
+    background-color: #292929;
+    font-family: 'Roboto', sans-serif;
+    color: #dfdfdf;
+    font-size: 20px;
 }
 
 nav ul {
@@ -50,19 +77,4 @@ nav>ul>li>a:visited {
 nav>ul>li>a:active,
 nav>ul>li>a:hover {
     background-color: #636a70;
-}
-
-article h1 {
-    font-family: 'Roboto', sans-serif;
-    color: #dfdfdf;
-    font-size: 32px;
-    background-color: #292929;
-    padding: 20px;
-    margin: 0;
-}
-
-article p {
-    font-family: 'Roboto', sans-serif;
-    color: #dfdfdf;
-    font-size: 16px;
 }

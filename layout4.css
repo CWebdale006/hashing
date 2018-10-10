@@ -9,6 +9,14 @@ Filename: layout4.css
 */
 
 /*Structure of Body*/
+header h1 {
+    font-size: calc(24px + 2vw);
+    padding: 0 2vw;
+}
+
+article p {
+    padding: 1vw;
+}
 
 /*Navigation Styles*/
 nav {
