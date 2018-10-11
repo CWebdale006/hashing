@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /*
     Hashing Research Project
@@ -10,28 +11,70 @@
 
 /*HTML and Body Styles*/
 html {
-    background-color: #a2b9bc; 
+    background-color: #a2b9bc;
 }
 
 body {
-    background-color: #b2ad7f; 
-    /*find font*/ 
+    background-color: #32445f;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #dfdfdf;
+    font-size: 32px;
+    background-color: #292929;
+    padding: 20px;
+    margin: 10px;
+}
+
+article h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #dfdfdf;
+    font-size: 32px;
+    background-color: #292929;
+    padding: 20px;
+    margin: 0;
+}
+
+article p {
+    font-family: 'Roboto', sans-serif;
+    color: #dfdfdf;
+    font-size: 16px;
+}
+
+article#info>p#history {
+    padding-top: 0.5vw;
+    margin-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+blockquote {
+    font-family: 'Roboto', sans-serif;
+    color: #dfdfdf;
+    font-size: 20px;
 }
 
 /*Navigation Styles*/
 nav {
-    background-color: #878f99; 
+    background-color: #292929;
+    font-family: 'Roboto', sans-serif;
+    color: #dfdfdf;
+    font-size: 20px;
 }
+
 nav ul {
-    list-style-type: none; 
-    line-height: 2em; 
+    list-style-type: none;
+    line-height: 2em;
 }
 
-nav a:link, nav>ul>li>a:visited {
-    text-decoration: none; 
-    color: #594392; 
+nav a:link,
+nav>ul>li>a:visited {
+    text-decoration: none;
+    color: #dfdfdf;
 }
 
-nav>ul>li>a:active, nav>ul>li>a:hover {
+nav>ul>li>a:active,
+nav>ul>li>a:hover {
     background-color: #636a70;
 }
