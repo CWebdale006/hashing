@@ -11,6 +11,8 @@
 */
 
 /*HTML and Body Styles*/
+
+/*Picked background colors that go well together. -Connor*/
 html {
     background-color: rgb(63.5%, 72.5%, 73.7%); 
 }
@@ -19,6 +21,7 @@ body {
     background-color: rgb(50, 68, 95);  
 }
 
+/*Changed the font and color to make it stand out. Font size/background color changed for readability and to draw attention to the h1. Padding and margin so the h1 looks nice. -Connor*/
 h1 {
     font-family: 'Roboto', sans-serif;
     color: rgb(223, 223, 223); 
@@ -28,6 +31,7 @@ h1 {
     margin: 10px;
 }
 
+/*Changed the font and color to make it stand out. Font size/background color changed for readability. Padding and margin so the h1 looks nice in the article element. -Connor*/
 article h1 {
     font-family: 'Roboto', sans-serif;
     color: rgb(223, 223, 223);
@@ -37,22 +41,26 @@ article h1 {
     margin: 0;
 }
 
+/*Easier to read. -Connor*/
 p {
     padding-left: 0.5vw; 
     text-indent: 1vw; 
     line-height: 125%; 
 }
 
+/*Look better on the page. -Connor*/
 article>div h1#left {
     margin-top: 8.5px; 
 }
 
+/*Changed font and color to stand out against the background. Used calc for size(learned from Micah). -Connor*/
 article p {
     font-family: 'Roboto', sans-serif;
     color: rgb(223, 223, 223);
     font-size: calc(11px + .6vw);
 }
 
+/*Making it look good. -Connor*/
 article#info>p#history {
     padding-top: 0.5vw;
     margin-top: 0.5vw;
@@ -60,6 +68,7 @@ article#info>p#history {
     margin-bottom: 0.5vw;
 }
 
+/*Made font size bigger to draw attention, since it was a good summary of the text. -Connor*/
 blockquote {
     font-family: 'Roboto', sans-serif;
     color: rgb(223, 223, 223);
@@ -67,6 +76,7 @@ blockquote {
 }
 
 /*Navigation Styles*/
+/*Changed background color to make the navigation bar easy to find. -Connor*/
 nav {
     background-color:rgb(41, 41, 41);
     font-family: 'Roboto', sans-serif;
@@ -74,23 +84,27 @@ nav {
     font-size: 20px;
 }
 
+/*Removed the discs and changed line-height for layout issues. -Connor*/
 nav ul {
     list-style-type: none;
     line-height: 2em;
 }
 
+/*Removed underlining. -Connor*/
 nav a:link,
 nav>ul>li>a:visited {
     text-decoration: none;
     color: rgb(223, 223, 223);
 }
 
+/*Added a difference when links are hovered or active. -Connor*/
 nav>ul>li>a:active,
 nav>ul>li>a:hover {
     background-color: rgb(99, 106, 112);
 }
 
 /*Footer Styles*/
+/*Darkened footer text color. -Connor*/
 footer {
     font-family: 'Roboto', sans-serif;
     color: rgb(153, 153, 153); 

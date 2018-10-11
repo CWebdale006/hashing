@@ -9,6 +9,7 @@ Filename: layout2.css
 */
 
 /*Structure of Body*/
+/*Changed font size to scale. -Connor*/
 header h1 {
     font-size: calc(24px + 2vw);
     padding: 0 2vw;
@@ -20,6 +21,7 @@ article#text {
     margin-right: 5vw;
 }
 
+/*Styles to make the image fit better on-screen. Added two-columns, of an image and text -Connor*/
 article#image {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -38,6 +40,7 @@ blockquote {
 }
 
 /*Navigation Styles*/
+/*Put navigation into a horizontal row instead of a vertical column. -Connor*/
 nav {
     display: table;
     width: 100%;
@@ -60,6 +63,7 @@ nav a {
 }
 
 /*Footer Styles*/
+/*Aligned the text of the footer -Connor*/
 footer {
     text-align: center;
 }

@@ -9,6 +9,7 @@ Filename: layout4.css
 */
 
 /*Structure of Body*/
+/*Changed font size to scale. -Connor*/
 header h1 {
     font-size: calc(24px + 2vw);
     padding: 0 2vw;
@@ -18,6 +19,7 @@ article p {
     padding: 1vw;
 }
 
+/*Removed disc from unordered list. Changed line height so each item wasn't crowded.  -Connor*/
 article ul li {
     list-style-type: none; 
     line-height: 125%; 
@@ -31,6 +33,7 @@ article>ul {
     padding-left: 0px; 
 }
 /*Navigation Styles*/
+/*Put navigation into a horizontal row instead of a vertical column. -Connor*/
 nav {
     display: table;
     width: 100%;
@@ -53,6 +56,7 @@ nav a {
 }
 
 /*Footer Styles*/
+/*Aligned the text of the footer -Connor*/
 footer {
     text-align: center;
 }
