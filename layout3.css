@@ -9,11 +9,13 @@ Filename: layout3.css
 */
 
 /*Structure of Body*/
+/*Changed font size to scale.  -Connor*/
 header h1 {
     font-size: calc(24px + 2vw);
     padding: 0 2vw;
 }
 
+/*Image sizing changed to look better. Displayed in block and centered the image.  -Connor*/
 img {
     height: 25vw;
     width: 75%;
@@ -27,6 +29,7 @@ article#info>p {
 }
 
 /*Navigation Styles*/
+/*Put navigation into a horizontal row instead of a vertical column. -Connor*/
 nav {
     display: table;
     width: 100%;
@@ -49,6 +52,7 @@ nav a {
 }
 
 /*Footer Styles*/
+/*Aligned the text of the footer -Connor*/
 footer {
     text-align: center;
 }
