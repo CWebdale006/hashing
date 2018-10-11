@@ -18,6 +18,18 @@ article p {
     padding: 1vw;
 }
 
+article ul li {
+    list-style-type: none; 
+    line-height: 125%; 
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(11px + .6vw);
+    color: rgb(223, 223, 223); 
+    margin: 1vw; 
+}
+
+article>ul {
+    padding-left: 0px; 
+}
 /*Navigation Styles*/
 nav {
     display: table;
@@ -38,4 +50,9 @@ nav>ul>li {
 nav a {
     display: block;
     width: 100%;
+}
+
+/*Footer Styles*/
+footer {
+    text-align: center;
 }

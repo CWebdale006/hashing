@@ -16,7 +16,7 @@ header h1 {
 
 article#text {
     width: 90vw;
-    margin-left: 5vw;
+    margin-left: 2.5vw;
     margin-right: 5vw;
 }
 
@@ -35,22 +35,6 @@ img {
 
 blockquote {
     padding-top: 3vw;
-}
-
-blockquote::before {
-    content: open-quote;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-blockquote::after {
-    content: close-quote;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-footer {
-    text-align: center;
 }
 
 /*Navigation Styles*/
@@ -73,4 +57,9 @@ nav>ul>li {
 nav a {
     display: block;
     width: 100%;
+}
+
+/*Footer Styles*/
+footer {
+    text-align: center;
 }
