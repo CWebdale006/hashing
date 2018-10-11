@@ -9,28 +9,32 @@ Filename: layout2.css
 */
 
 /*Structure of Body*/
-section#title>h1 {
-    font-size: 300%;
-    margin: 1% 1% 1% 3%;
+header h1 {
+    font-size: calc(24px + 2vw);
+    padding: 0 2vw;
 }
 
-section#text {
-    width: 75%;
-    margin-left: 2%;
+article#text {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+article#image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
 }
 
 img {
-    height: 388px;
-    width: 50%;
-    margin-left: 2%;
-    margin-top: 4%;
+    width: 40vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    display: block;
+    margin: 1vw auto;
 }
 
 blockquote {
-    width: 27%;
-    position: absolute;
-    top: 475px;
-    left: 65%;
+    padding-top: 3vw;
 }
 
 blockquote::before {
